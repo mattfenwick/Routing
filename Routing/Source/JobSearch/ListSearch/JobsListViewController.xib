@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JobsListViewController" customModule="Routing" customModuleProvider="target">
+            <connections>
+                <outlet property="showFiltersButton" destination="Zwk-pA-3SU" id="heD-Sy-iQl"/>
+                <outlet property="showJobDetailButton" destination="utD-mM-SG7" id="oN2-WN-e2k"/>
+                <outlet property="showSaveSearchButton" destination="C73-pF-Yeo" id="0Zu-Pr-7kL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="omb-ub-U3J">
+                    <rect key="frame" x="0.0" y="200" width="375" height="367"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jobs list view" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHs-Vx-9fk">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C73-pF-Yeo">
+                            <rect key="frame" x="0.0" y="106" width="375" height="30"/>
+                            <state key="normal" title="Save search"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zwk-pA-3SU">
+                            <rect key="frame" x="0.0" y="221.5" width="375" height="30"/>
+                            <state key="normal" title="Show filters"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utD-mM-SG7">
+                            <rect key="frame" x="0.0" y="337" width="375" height="30"/>
+                            <state key="normal" title="Show job detail"/>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="omb-ub-U3J" secondAttribute="bottom" constant="100" id="SeE-3p-h7B"/>
+                <constraint firstItem="omb-ub-U3J" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="kR1-3W-7eI"/>
+                <constraint firstItem="omb-ub-U3J" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="w5W-WL-gKw"/>
+                <constraint firstItem="omb-ub-U3J" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wi0-4I-btc"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

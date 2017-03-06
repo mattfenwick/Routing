@@ -14,6 +14,51 @@
 		41AC21AB1E6B06FF0041F196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AC21A91E6B06FF0041F196 /* LaunchScreen.storyboard */; };
 		41AC21B61E6B06FF0041F196 /* RoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21B51E6B06FF0041F196 /* RoutingTests.swift */; };
 		41AC21C11E6B06FF0041F196 /* RoutingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21C01E6B06FF0041F196 /* RoutingUITests.swift */; };
+		41AC21D11E6B08860041F196 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21D01E6B08860041F196 /* Router.swift */; };
+		41AC21D81E6B17590041F196 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21D61E6B17590041F196 /* LoginViewController.swift */; };
+		41AC21D91E6B17590041F196 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AC21D71E6B17590041F196 /* LoginViewController.xib */; };
+		41AC21DB1E6B176A0041F196 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21DA1E6B176A0041F196 /* LoginPresenter.swift */; };
+		41AC21DD1E6B17780041F196 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21DC1E6B17780041F196 /* LoginCoordinator.swift */; };
+		41AC21E21E6B18340041F196 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AC21DF1E6B18340041F196 /* RxCocoa.framework */; };
+		41AC21E31E6B18340041F196 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AC21E01E6B18340041F196 /* RxDataSources.framework */; };
+		41AC21E41E6B18340041F196 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AC21E11E6B18340041F196 /* RxSwift.framework */; };
+		41AC21E61E6B18490041F196 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41AC21DF1E6B18340041F196 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41AC21E71E6B18490041F196 /* RxDataSources.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41AC21E01E6B18340041F196 /* RxDataSources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41AC21E81E6B18490041F196 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41AC21E11E6B18340041F196 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41AC21EA1E6B1A820041F196 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21E91E6B1A820041F196 /* LoginInteractor.swift */; };
+		41AC21EC1E6B1D060041F196 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21EB1E6B1D060041F196 /* LoginModel.swift */; };
+		41AC21EF1E6B1FE80041F196 /* Observable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21EE1E6B1FE80041F196 /* Observable+Operators.swift */; };
+		41AC21F11E6C839F0041F196 /* JobDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21F01E6C839F0041F196 /* JobDetailsCoordinator.swift */; };
+		41AC21F31E6C83AE0041F196 /* JobDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21F21E6C83AE0041F196 /* JobDetailsPresenter.swift */; };
+		41AC21F51E6C83BC0041F196 /* JobDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21F41E6C83BC0041F196 /* JobDetailsInteractor.swift */; };
+		41AC21F81E6C83CF0041F196 /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21F61E6C83CF0041F196 /* JobDetailsViewController.swift */; };
+		41AC21F91E6C83CF0041F196 /* JobDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AC21F71E6C83CF0041F196 /* JobDetailsViewController.xib */; };
+		41AC21FC1E6C84300041F196 /* JobsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21FB1E6C84300041F196 /* JobsListPresenter.swift */; };
+		41AC21FE1E6C84410041F196 /* JobsListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21FD1E6C84410041F196 /* JobsListCoordinator.swift */; };
+		41AC22001E6C84510041F196 /* JobsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC21FF1E6C84510041F196 /* JobsListInteractor.swift */; };
+		41AC22031E6C846B0041F196 /* JobsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22011E6C846B0041F196 /* JobsListViewController.swift */; };
+		41AC22041E6C846B0041F196 /* JobsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AC22021E6C846B0041F196 /* JobsListViewController.xib */; };
+		41AC220B1E6C84FA0041F196 /* CreateSavedSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC220A1E6C84FA0041F196 /* CreateSavedSearchPresenter.swift */; };
+		41AC220D1E6C850F0041F196 /* CreateSavedSearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC220C1E6C850E0041F196 /* CreateSavedSearchCoordinator.swift */; };
+		41AC220F1E6C851E0041F196 /* CreateSavedSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC220E1E6C851E0041F196 /* CreateSavedSearchInteractor.swift */; };
+		41AC22121E6C856A0041F196 /* JobsTypeaheadPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22111E6C856A0041F196 /* JobsTypeaheadPresenter.swift */; };
+		41AC22151E6C857F0041F196 /* JobsTypeaheadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22131E6C857F0041F196 /* JobsTypeaheadViewController.swift */; };
+		41AC22161E6C857F0041F196 /* JobsTypeaheadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AC22141E6C857F0041F196 /* JobsTypeaheadViewController.xib */; };
+		41AC22181E6C85960041F196 /* JobsTypeaheadCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22171E6C85960041F196 /* JobsTypeaheadCoordinator.swift */; };
+		41AC221A1E6C85A60041F196 /* JobsTypeaheadInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22191E6C85A60041F196 /* JobsTypeaheadInteractor.swift */; };
+		41AC221F1E6C8E7B0041F196 /* SavedSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC221D1E6C8E7B0041F196 /* SavedSearchViewController.swift */; };
+		41AC22201E6C8E7B0041F196 /* SavedSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AC221E1E6C8E7B0041F196 /* SavedSearchViewController.xib */; };
+		41AC22231E6C8F680041F196 /* ListSearchFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22221E6C8F680041F196 /* ListSearchFlowController.swift */; };
+		41AC22251E6C8F780041F196 /* MapSearchFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22241E6C8F780041F196 /* MapSearchFlowController.swift */; };
+		41AC22281E6C90870041F196 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22261E6C90870041F196 /* MapViewController.swift */; };
+		41AC22291E6C90870041F196 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AC22271E6C90870041F196 /* MapViewController.xib */; };
+		41AC222B1E6C90B60041F196 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC222A1E6C90B60041F196 /* MapPresenter.swift */; };
+		41AC222D1E6C90C40041F196 /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC222C1E6C90C40041F196 /* MapCoordinator.swift */; };
+		41AC222F1E6C90D50041F196 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC222E1E6C90D50041F196 /* MapInteractor.swift */; };
+		41AC22311E6DAD160041F196 /* ListSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22301E6DAD160041F196 /* ListSearchInteractor.swift */; };
+		41AC22331E6DB5910041F196 /* JobsListFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22321E6DB5910041F196 /* JobsListFlowController.swift */; };
+		41AC22351E6DBC7F0041F196 /* JobSearchLoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22341E6DBC7F0041F196 /* JobSearchLoginProtocol.swift */; };
+		41AC22371E6DC5EE0041F196 /* WonkyApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC22361E6DC5EE0041F196 /* WonkyApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +78,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		41AC21E51E6B183E0041F196 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				41AC21E61E6B18490041F196 /* RxCocoa.framework in CopyFiles */,
+				41AC21E71E6B18490041F196 /* RxDataSources.framework in CopyFiles */,
+				41AC21E81E6B18490041F196 /* RxSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		41AC219D1E6B06FF0041F196 /* Routing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AC21A01E6B06FF0041F196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +107,48 @@
 		41AC21BC1E6B06FF0041F196 /* RoutingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AC21C01E6B06FF0041F196 /* RoutingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingUITests.swift; sourceTree = "<group>"; };
 		41AC21C21E6B06FF0041F196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AC21D01E6B08860041F196 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Source/Router.swift; sourceTree = "<group>"; };
+		41AC21D61E6B17590041F196 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Source/Login/LoginViewController.swift; sourceTree = "<group>"; };
+		41AC21D71E6B17590041F196 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Source/Login/LoginViewController.xib; sourceTree = "<group>"; };
+		41AC21DA1E6B176A0041F196 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginPresenter.swift; path = Source/Login/LoginPresenter.swift; sourceTree = "<group>"; };
+		41AC21DC1E6B17780041F196 /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginCoordinator.swift; path = Source/Login/LoginCoordinator.swift; sourceTree = "<group>"; };
+		41AC21DF1E6B18340041F196 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		41AC21E01E6B18340041F196 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		41AC21E11E6B18340041F196 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		41AC21E91E6B1A820041F196 /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginInteractor.swift; path = Source/Login/LoginInteractor.swift; sourceTree = "<group>"; };
+		41AC21EB1E6B1D060041F196 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginModel.swift; path = Source/Login/LoginModel.swift; sourceTree = "<group>"; };
+		41AC21EE1E6B1FE80041F196 /* Observable+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+Operators.swift"; path = "Source/Extensions/Observable+Operators.swift"; sourceTree = "<group>"; };
+		41AC21F01E6C839F0041F196 /* JobDetailsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobDetailsCoordinator.swift; path = Source/JobSearch/JobDetails/JobDetailsCoordinator.swift; sourceTree = "<group>"; };
+		41AC21F21E6C83AE0041F196 /* JobDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobDetailsPresenter.swift; path = Source/JobSearch/JobDetails/JobDetailsPresenter.swift; sourceTree = "<group>"; };
+		41AC21F41E6C83BC0041F196 /* JobDetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobDetailsInteractor.swift; path = Source/JobSearch/JobDetails/JobDetailsInteractor.swift; sourceTree = "<group>"; };
+		41AC21F61E6C83CF0041F196 /* JobDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobDetailsViewController.swift; path = Source/JobSearch/JobDetails/JobDetailsViewController.swift; sourceTree = "<group>"; };
+		41AC21F71E6C83CF0041F196 /* JobDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobDetailsViewController.xib; path = Source/JobSearch/JobDetails/JobDetailsViewController.xib; sourceTree = "<group>"; };
+		41AC21FB1E6C84300041F196 /* JobsListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsListPresenter.swift; path = Source/JobSearch/ListSearch/JobsListPresenter.swift; sourceTree = "<group>"; };
+		41AC21FD1E6C84410041F196 /* JobsListCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsListCoordinator.swift; path = Source/JobSearch/ListSearch/JobsListCoordinator.swift; sourceTree = "<group>"; };
+		41AC21FF1E6C84510041F196 /* JobsListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsListInteractor.swift; path = Source/JobSearch/ListSearch/JobsListInteractor.swift; sourceTree = "<group>"; };
+		41AC22011E6C846B0041F196 /* JobsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsListViewController.swift; path = Source/JobSearch/ListSearch/JobsListViewController.swift; sourceTree = "<group>"; };
+		41AC22021E6C846B0041F196 /* JobsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobsListViewController.xib; path = Source/JobSearch/ListSearch/JobsListViewController.xib; sourceTree = "<group>"; };
+		41AC220A1E6C84FA0041F196 /* CreateSavedSearchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateSavedSearchPresenter.swift; path = Source/JobSearch/CrudSavedSearch/CreateSavedSearchPresenter.swift; sourceTree = "<group>"; };
+		41AC220C1E6C850E0041F196 /* CreateSavedSearchCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateSavedSearchCoordinator.swift; path = Source/JobSearch/CrudSavedSearch/CreateSavedSearchCoordinator.swift; sourceTree = "<group>"; };
+		41AC220E1E6C851E0041F196 /* CreateSavedSearchInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateSavedSearchInteractor.swift; path = Source/JobSearch/CrudSavedSearch/CreateSavedSearchInteractor.swift; sourceTree = "<group>"; };
+		41AC22111E6C856A0041F196 /* JobsTypeaheadPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsTypeaheadPresenter.swift; path = Source/JobSearch/JobsTypeahead/JobsTypeaheadPresenter.swift; sourceTree = "<group>"; };
+		41AC22131E6C857F0041F196 /* JobsTypeaheadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsTypeaheadViewController.swift; path = Source/JobSearch/JobsTypeahead/JobsTypeaheadViewController.swift; sourceTree = "<group>"; };
+		41AC22141E6C857F0041F196 /* JobsTypeaheadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobsTypeaheadViewController.xib; path = Source/JobSearch/JobsTypeahead/JobsTypeaheadViewController.xib; sourceTree = "<group>"; };
+		41AC22171E6C85960041F196 /* JobsTypeaheadCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsTypeaheadCoordinator.swift; path = Source/JobSearch/JobsTypeahead/JobsTypeaheadCoordinator.swift; sourceTree = "<group>"; };
+		41AC22191E6C85A60041F196 /* JobsTypeaheadInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsTypeaheadInteractor.swift; path = Source/JobSearch/JobsTypeahead/JobsTypeaheadInteractor.swift; sourceTree = "<group>"; };
+		41AC221D1E6C8E7B0041F196 /* SavedSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedSearchViewController.swift; path = Source/JobSearch/CrudSavedSearch/SavedSearchViewController.swift; sourceTree = "<group>"; };
+		41AC221E1E6C8E7B0041F196 /* SavedSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SavedSearchViewController.xib; path = Source/JobSearch/CrudSavedSearch/SavedSearchViewController.xib; sourceTree = "<group>"; };
+		41AC22221E6C8F680041F196 /* ListSearchFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListSearchFlowController.swift; path = Source/JobSearch/FlowControllers/ListSearchFlowController.swift; sourceTree = "<group>"; };
+		41AC22241E6C8F780041F196 /* MapSearchFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapSearchFlowController.swift; path = Source/JobSearch/FlowControllers/MapSearchFlowController.swift; sourceTree = "<group>"; };
+		41AC22261E6C90870041F196 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Source/JobSearch/Map/MapViewController.swift; sourceTree = "<group>"; };
+		41AC22271E6C90870041F196 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = Source/JobSearch/Map/MapViewController.xib; sourceTree = "<group>"; };
+		41AC222A1E6C90B60041F196 /* MapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapPresenter.swift; path = Source/JobSearch/Map/MapPresenter.swift; sourceTree = "<group>"; };
+		41AC222C1E6C90C40041F196 /* MapCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapCoordinator.swift; path = Source/JobSearch/Map/MapCoordinator.swift; sourceTree = "<group>"; };
+		41AC222E1E6C90D50041F196 /* MapInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapInteractor.swift; path = Source/JobSearch/Map/MapInteractor.swift; sourceTree = "<group>"; };
+		41AC22301E6DAD160041F196 /* ListSearchInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListSearchInteractor.swift; path = Source/JobSearch/FlowControllers/ListSearchInteractor.swift; sourceTree = "<group>"; };
+		41AC22321E6DB5910041F196 /* JobsListFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobsListFlowController.swift; path = Source/JobSearch/FlowControllers/JobsListFlowController.swift; sourceTree = "<group>"; };
+		41AC22341E6DBC7F0041F196 /* JobSearchLoginProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobSearchLoginProtocol.swift; path = Source/JobSearch/JobSearchLoginProtocol.swift; sourceTree = "<group>"; };
+		41AC22361E6DC5EE0041F196 /* WonkyApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WonkyApplication.swift; path = Source/WonkyApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +156,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AC21E21E6B18340041F196 /* RxCocoa.framework in Frameworks */,
+				41AC21E31E6B18340041F196 /* RxDataSources.framework in Frameworks */,
+				41AC21E41E6B18340041F196 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +186,7 @@
 				41AC21B41E6B06FF0041F196 /* RoutingTests */,
 				41AC21BF1E6B06FF0041F196 /* RoutingUITests */,
 				41AC219E1E6B06FF0041F196 /* Products */,
+				41AC21DE1E6B18340041F196 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +203,7 @@
 		41AC219F1E6B06FF0041F196 /* Routing */ = {
 			isa = PBXGroup;
 			children = (
+				41AC21CF1E6B08720041F196 /* Source */,
 				41AC21A01E6B06FF0041F196 /* AppDelegate.swift */,
 				41AC21A21E6B06FF0041F196 /* ViewController.swift */,
 				41AC21A41E6B06FF0041F196 /* Main.storyboard */,
@@ -125,6 +232,150 @@
 			path = RoutingUITests;
 			sourceTree = "<group>";
 		};
+		41AC21CF1E6B08720041F196 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				41AC21ED1E6B1F860041F196 /* Extensions */,
+				41AC21D41E6B08A00041F196 /* Dashboard */,
+				41AC21D31E6B089B0041F196 /* JobSearch */,
+				41AC21D21E6B08890041F196 /* Login */,
+				41AC21D01E6B08860041F196 /* Router.swift */,
+				41AC22361E6DC5EE0041F196 /* WonkyApplication.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		41AC21D21E6B08890041F196 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				41AC21D61E6B17590041F196 /* LoginViewController.swift */,
+				41AC21D71E6B17590041F196 /* LoginViewController.xib */,
+				41AC21DA1E6B176A0041F196 /* LoginPresenter.swift */,
+				41AC21DC1E6B17780041F196 /* LoginCoordinator.swift */,
+				41AC21E91E6B1A820041F196 /* LoginInteractor.swift */,
+				41AC21EB1E6B1D060041F196 /* LoginModel.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		41AC21D31E6B089B0041F196 /* JobSearch */ = {
+			isa = PBXGroup;
+			children = (
+				41AC22211E6C8F470041F196 /* FlowControllers */,
+				41AC221C1E6C8E410041F196 /* Filters */,
+				41AC221B1E6C8E200041F196 /* Map */,
+				41AC22101E6C853F0041F196 /* JobsTypeahead */,
+				41AC22051E6C84A20041F196 /* CrudSavedSearch */,
+				41AC21FA1E6C84120041F196 /* ListSearch */,
+				41AC21D51E6B15CE0041F196 /* JobDetails */,
+				41AC22341E6DBC7F0041F196 /* JobSearchLoginProtocol.swift */,
+			);
+			name = JobSearch;
+			sourceTree = "<group>";
+		};
+		41AC21D41E6B08A00041F196 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		41AC21D51E6B15CE0041F196 /* JobDetails */ = {
+			isa = PBXGroup;
+			children = (
+				41AC21F01E6C839F0041F196 /* JobDetailsCoordinator.swift */,
+				41AC21F21E6C83AE0041F196 /* JobDetailsPresenter.swift */,
+				41AC21F41E6C83BC0041F196 /* JobDetailsInteractor.swift */,
+				41AC21F61E6C83CF0041F196 /* JobDetailsViewController.swift */,
+				41AC21F71E6C83CF0041F196 /* JobDetailsViewController.xib */,
+			);
+			name = JobDetails;
+			sourceTree = "<group>";
+		};
+		41AC21DE1E6B18340041F196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41AC21DF1E6B18340041F196 /* RxCocoa.framework */,
+				41AC21E01E6B18340041F196 /* RxDataSources.framework */,
+				41AC21E11E6B18340041F196 /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41AC21ED1E6B1F860041F196 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41AC21EE1E6B1FE80041F196 /* Observable+Operators.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		41AC21FA1E6C84120041F196 /* ListSearch */ = {
+			isa = PBXGroup;
+			children = (
+				41AC21FB1E6C84300041F196 /* JobsListPresenter.swift */,
+				41AC21FD1E6C84410041F196 /* JobsListCoordinator.swift */,
+				41AC21FF1E6C84510041F196 /* JobsListInteractor.swift */,
+				41AC22011E6C846B0041F196 /* JobsListViewController.swift */,
+				41AC22021E6C846B0041F196 /* JobsListViewController.xib */,
+			);
+			name = ListSearch;
+			sourceTree = "<group>";
+		};
+		41AC22051E6C84A20041F196 /* CrudSavedSearch */ = {
+			isa = PBXGroup;
+			children = (
+				41AC220A1E6C84FA0041F196 /* CreateSavedSearchPresenter.swift */,
+				41AC220C1E6C850E0041F196 /* CreateSavedSearchCoordinator.swift */,
+				41AC220E1E6C851E0041F196 /* CreateSavedSearchInteractor.swift */,
+				41AC221D1E6C8E7B0041F196 /* SavedSearchViewController.swift */,
+				41AC221E1E6C8E7B0041F196 /* SavedSearchViewController.xib */,
+			);
+			name = CrudSavedSearch;
+			sourceTree = "<group>";
+		};
+		41AC22101E6C853F0041F196 /* JobsTypeahead */ = {
+			isa = PBXGroup;
+			children = (
+				41AC22111E6C856A0041F196 /* JobsTypeaheadPresenter.swift */,
+				41AC22131E6C857F0041F196 /* JobsTypeaheadViewController.swift */,
+				41AC22141E6C857F0041F196 /* JobsTypeaheadViewController.xib */,
+				41AC22171E6C85960041F196 /* JobsTypeaheadCoordinator.swift */,
+				41AC22191E6C85A60041F196 /* JobsTypeaheadInteractor.swift */,
+			);
+			name = JobsTypeahead;
+			sourceTree = "<group>";
+		};
+		41AC221B1E6C8E200041F196 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				41AC22261E6C90870041F196 /* MapViewController.swift */,
+				41AC22271E6C90870041F196 /* MapViewController.xib */,
+				41AC222A1E6C90B60041F196 /* MapPresenter.swift */,
+				41AC222C1E6C90C40041F196 /* MapCoordinator.swift */,
+				41AC222E1E6C90D50041F196 /* MapInteractor.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		41AC221C1E6C8E410041F196 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		41AC22211E6C8F470041F196 /* FlowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41AC22221E6C8F680041F196 /* ListSearchFlowController.swift */,
+				41AC22241E6C8F780041F196 /* MapSearchFlowController.swift */,
+				41AC22301E6DAD160041F196 /* ListSearchInteractor.swift */,
+				41AC22321E6DB5910041F196 /* JobsListFlowController.swift */,
+			);
+			name = FlowControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +386,7 @@
 				41AC21991E6B06FF0041F196 /* Sources */,
 				41AC219A1E6B06FF0041F196 /* Frameworks */,
 				41AC219B1E6B06FF0041F196 /* Resources */,
+				41AC21E51E6B183E0041F196 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -235,8 +487,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AC21D91E6B17590041F196 /* LoginViewController.xib in Resources */,
 				41AC21AB1E6B06FF0041F196 /* LaunchScreen.storyboard in Resources */,
+				41AC22161E6C857F0041F196 /* JobsTypeaheadViewController.xib in Resources */,
+				41AC22041E6C846B0041F196 /* JobsListViewController.xib in Resources */,
+				41AC22291E6C90870041F196 /* MapViewController.xib in Resources */,
+				41AC21F91E6C83CF0041F196 /* JobDetailsViewController.xib in Resources */,
 				41AC21A81E6B06FF0041F196 /* Assets.xcassets in Resources */,
+				41AC22201E6C8E7B0041F196 /* SavedSearchViewController.xib in Resources */,
 				41AC21A61E6B06FF0041F196 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +520,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AC22181E6C85960041F196 /* JobsTypeaheadCoordinator.swift in Sources */,
+				41AC22331E6DB5910041F196 /* JobsListFlowController.swift in Sources */,
+				41AC21F31E6C83AE0041F196 /* JobDetailsPresenter.swift in Sources */,
+				41AC22311E6DAD160041F196 /* ListSearchInteractor.swift in Sources */,
+				41AC22371E6DC5EE0041F196 /* WonkyApplication.swift in Sources */,
+				41AC21F51E6C83BC0041F196 /* JobDetailsInteractor.swift in Sources */,
+				41AC222D1E6C90C40041F196 /* MapCoordinator.swift in Sources */,
+				41AC21DD1E6B17780041F196 /* LoginCoordinator.swift in Sources */,
+				41AC21F11E6C839F0041F196 /* JobDetailsCoordinator.swift in Sources */,
+				41AC21FE1E6C84410041F196 /* JobsListCoordinator.swift in Sources */,
+				41AC22031E6C846B0041F196 /* JobsListViewController.swift in Sources */,
+				41AC22231E6C8F680041F196 /* ListSearchFlowController.swift in Sources */,
+				41AC21D81E6B17590041F196 /* LoginViewController.swift in Sources */,
+				41AC22151E6C857F0041F196 /* JobsTypeaheadViewController.swift in Sources */,
+				41AC21EA1E6B1A820041F196 /* LoginInteractor.swift in Sources */,
+				41AC220B1E6C84FA0041F196 /* CreateSavedSearchPresenter.swift in Sources */,
+				41AC222B1E6C90B60041F196 /* MapPresenter.swift in Sources */,
 				41AC21A31E6B06FF0041F196 /* ViewController.swift in Sources */,
+				41AC22121E6C856A0041F196 /* JobsTypeaheadPresenter.swift in Sources */,
+				41AC221F1E6C8E7B0041F196 /* SavedSearchViewController.swift in Sources */,
+				41AC22351E6DBC7F0041F196 /* JobSearchLoginProtocol.swift in Sources */,
+				41AC220D1E6C850F0041F196 /* CreateSavedSearchCoordinator.swift in Sources */,
+				41AC222F1E6C90D50041F196 /* MapInteractor.swift in Sources */,
+				41AC22001E6C84510041F196 /* JobsListInteractor.swift in Sources */,
+				41AC221A1E6C85A60041F196 /* JobsTypeaheadInteractor.swift in Sources */,
+				41AC21D11E6B08860041F196 /* Router.swift in Sources */,
+				41AC21EC1E6B1D060041F196 /* LoginModel.swift in Sources */,
 				41AC21A11E6B06FF0041F196 /* AppDelegate.swift in Sources */,
+				41AC21DB1E6B176A0041F196 /* LoginPresenter.swift in Sources */,
+				41AC220F1E6C851E0041F196 /* CreateSavedSearchInteractor.swift in Sources */,
+				41AC21EF1E6B1FE80041F196 /* Observable+Operators.swift in Sources */,
+				41AC21FC1E6C84300041F196 /* JobsListPresenter.swift in Sources */,
+				41AC22251E6C8F780041F196 /* MapSearchFlowController.swift in Sources */,
+				41AC21F81E6C83CF0041F196 /* JobDetailsViewController.swift in Sources */,
+				41AC22281E6C90870041F196 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +707,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SE57AAFEBM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Routing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mf.Routing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,7 +725,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SE57AAFEBM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Routing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mf.Routing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
